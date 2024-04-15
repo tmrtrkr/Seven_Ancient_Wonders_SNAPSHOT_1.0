@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/home2">
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.imaginai.fragmentandnavigationtest.home"
+        android:label="home"
+        tools:layout="@layout/home" >
+        <action
+            android:id="@+id/action_home2_to_artemis"
+            app:destination="@id/artemis" />
+        <action
+            android:id="@+id/action_home2_to_giza"
+            app:destination="@id/giza" />
+        <action
+            android:id="@+id/action_home2_to_halicarnassus"
+            app:destination="@id/halicarnassus" />
+        <action
+            android:id="@+id/action_home2_to_hanging_gardens"
+            app:destination="@id/hanging_gardens" />
+        <action
+            android:id="@+id/action_home2_to_lighthouse"
+            app:destination="@id/lighthouse" />
+        <action
+            android:id="@+id/action_home2_to_rodos"
+            app:destination="@id/rodos" />
+        <action
+            android:id="@+id/action_home2_to_zeus"
+            app:destination="@id/zeus" />
+    </fragment>
+    <fragment
+        android:id="@+id/artemis"
+        android:name="com.imaginai.fragmentandnavigationtest.artemis"
+        android:label="artemis"
+        tools:layout="@layout/artemis" >
+        <action
+            android:id="@+id/action_artemis_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/giza"
+        android:name="com.imaginai.fragmentandnavigationtest.giza"
+        android:label="giza"
+        tools:layout="@layout/giza" >
+        <action
+            android:id="@+id/action_giza_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/halicarnassus"
+        android:name="com.imaginai.fragmentandnavigationtest.halicarnassus"
+        android:label="halicarnassus"
+        tools:layout="@layout/halicarnassus" >
+        <action
+            android:id="@+id/action_halicarnassus_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/hanging_gardens"
+        android:name="com.imaginai.fragmentandnavigationtest.hanging_gardens"
+        android:label="hanging_gardens"
+        tools:layout="@layout/hanging_gardens" >
+        <action
+            android:id="@+id/action_hanging_gardens_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/lighthouse"
+        android:name="com.imaginai.fragmentandnavigationtest.lighthouse"
+        android:label="lighthouse"
+        tools:layout="@layout/lighthouse" >
+        <action
+            android:id="@+id/action_lighthouse_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/rodos"
+        android:name="com.imaginai.fragmentandnavigationtest.rodos"
+        android:label="rodos"
+        tools:layout="@layout/rodos" >
+        <action
+            android:id="@+id/action_rodos_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/zeus"
+        android:name="com.imaginai.fragmentandnavigationtest.zeus"
+        android:label="zeus"
+        tools:layout="@layout/zeus" >
+        <action
+            android:id="@+id/action_zeus_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+</navigation>

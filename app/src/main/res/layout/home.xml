@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Seven Wonders of the Ancient World"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="@color/white"/>
+
+    <Button
+        android:id="@+id/toArtemis_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="30dp"
+        android:text="Temple of Artemis" />
+
+    <Button
+        android:id="@+id/toGiza_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="30dp"
+        android:text="Giza Pyramid" />
+
+    <Button
+        android:id="@+id/toHalicarnassus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="30dp"
+        android:text="Mausoleum" />
+
+    <Button
+        android:id="@+id/toGardens_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="30dp"
+        android:text="Hanging Gardens" />
+
+    <Button
+        android:id="@+id/toLighthouse_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="30dp"
+        android:text="Lighthouse of Alexandria" />
+
+    <Button
+        android:id="@+id/toRodos_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="15dp"
+        android:text="Colossus of Rhodes" />
+
+    <Button
+        android:id="@+id/toZeus_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="15dp"
+        android:text="Statue of Zeus" />
+</LinearLayout>
